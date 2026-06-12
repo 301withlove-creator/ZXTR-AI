@@ -1,0 +1,20 @@
+# Masuk ke folder proyek
+cd ~/zxtr-ai
+
+# Inisialisasi Git (jika belum ada)
+git init
+
+# Hubungkan ke repositori GitHub kamu
+git remote add origin https://github.com/301withlove-creator/ZXTR-AI.git
+
+# Pindah ke cabang utama
+git branch -M main
+
+# Tambahkan semua file kode (model besar otomatis diabaikan)
+git add .
+
+# Buat catatan perubahan
+git commit -m "Kode awal ZXTR AI"
+
+# Unggah ke GitHub
+git push -u origin main
